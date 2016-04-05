@@ -22,7 +22,11 @@ SDUnityChanWarawara のフォルダに Main.scene というシーンが入っているので開いて実
 
 <br>
 
-## License
+詳しい使い方や各スクリプトの Inspector の中身については↓のページを参照してください。
+[README](http://many.chu.jp/Unity/SDUnityChanWarawara/ReadMe/)
+
+
+## ライセンス
     このプロジェクトは「ユニティちゃんライセンス2.0」を使用しています。
     http://unity-chan.com/contents/guideline/
     (C)Unity Technologies Japan/UCL
