@@ -18,7 +18,6 @@ This unity project for Unity 5.3.4 over.
     This unity project is test scene for Oculus Rift and Leap Motion.
     Please open "SDUnityChanWarawara/Main.scene".
 
-<br>
 
 ## License
     This unity project used UnityChan License 2.0.

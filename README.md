@@ -22,7 +22,7 @@ SDUnityChanWarawara のフォルダに Main.scene というシーンが入っているので開いて実
 
 <br>
 
-詳しい使い方や各スクリプトの Inspector の中身については↓のページを参照してください。
+詳しい使い方や各スクリプトの Inspector の中身については↓のページを参照してください。<br>
 [README](http://many.chu.jp/Unity/SDUnityChanWarawara/ReadMe/)
 
 
