@@ -1,39 +1,39 @@
-���{�� / [English](https://github.com/Maruchu/SDUnityChanWarawara/blob/master/README.en.md)
+日本語 / [English](https://github.com/Maruchu/SDUnityChanWarawara/blob/master/README.en.md)
 
 
 # SDUnityChanWarawara
-SD���j�e�B���������<br>
+SDユニティちゃんわらわら<br>
 
-<img src="http://many.chu.jp/Unity/SDUnityChanWarawara/banner.gif" alt="ScreenShot">
+<img src="http://many.chu.jp/Unity/SDUnityChanWarawara/Sample1.gif" alt="わらわら"> <img src="http://many.chu.jp/Unity/SDUnityChanWarawara/Sample2.gif" alt="LeapMotion使用時">
 
 Copyright(C)[Maruchu](http://maruchu.nobody.jp/ "Maruchu") 2016
 
 
-## ����
-�� Unity�̑Ή��o�[�W������ 5.3.4 �ȍ~�ł��B
+## 注意
+※ Unityの対応バージョンは 5.3.4 以降です。
 
 
-## �g����
+## 使い方
 
-Oculus Rift �� Leap Motion �̃e�X�g������Ƃ��K���ȃV�[��������ƕ֗��ł���ˁB<br>
-�Ƃ����킯�œK���ɂ���炷��SD���j�e�B���������ĐG���T���v���v���W�F�N�g�ł��B
+Oculus Rift と Leap Motion のテストをするとき適当なシーンがあると便利ですよね。<br>
+というわけで適当にわらわらするSDユニティちゃんを見て触れるサンプルプロジェクトです。
 
-SDUnityChanWarawara �̃t�H���_�� Main.scene �Ƃ����V�[���������Ă���̂ŊJ���Ď��s���Ă݂Ă��������B
+SDUnityChanWarawara のフォルダに Main.scene というシーンが入っているので開いて実行してみてください。
 
 <br>
 
-�ڂ����g������e�X�N���v�g�� Inspector �̒��g�ɂ��Ắ��̃y�[�W���Q�Ƃ��Ă��������B<br>
+詳しい使い方や各スクリプトの Inspector の中身については↓のページを参照してください。<br>
 [README](http://many.chu.jp/Unity/SDUnityChanWarawara/ReadMe/)
 
 
-## ���C�Z���X
-    ���̃v���W�F�N�g�́u���j�e�B����񃉃C�Z���X2.0�v���g�p���Ă��܂��B
+## ライセンス
+    このプロジェクトは「ユニティちゃんライセンス2.0」を使用しています。
     http://unity-chan.com/contents/guideline/
     (C)Unity Technologies Japan/UCL
 
-    ���̃v���W�F�N�g�́u"Unity Assets for Leap Motion Orion Beta 4.0.2�v���g�p���Ă��܂��B
+    このプロジェクトは「"Unity Assets for Leap Motion Orion Beta 4.0.2」を使用しています。
     Copyright(C) 2016, Leap Motion, Inc
 
 
-## Web�T�C�g
+## Webサイト
 [UnityTIPS SDUnityChanWarawara](http://many.chu.jp/Unity/SDUnityChanWarawara/)
