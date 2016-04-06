@@ -2,10 +2,10 @@
 
 
 # SDUnityChanWarawara
-SDƒ†ƒjƒeƒB‚¿‚á‚ñ‚í‚ç‚í‚ç<br>
+SDãƒ¦ãƒ‹ãƒ†ã‚£ã¡ã‚ƒã‚“ã‚ã‚‰ã‚ã‚‰<br>
 
 
-<img src="http://many.chu.jp/Unity/SDUnityChanWarawara/banner.gif" alt="ScreenShot">
+<img src="http://many.chu.jp/Unity/SDUnityChanWarawara/Sample1.gif" alt="ScreenShot"> <img src="http://many.chu.jp/Unity/SDUnityChanWarawara/Sample3.gif" alt="ScreenShot">
 
 Copyright(C)[Maruchu](http://maruchu.nobody.jp/ "Maruchu") 2016
 
