@@ -12,11 +12,9 @@ using System.Collections;
 
 
 
-/*
-	<summary>
-	適当にプレハブをわらわら生成するクラス
-	</summary>
- */
+///	<summary>	
+///	適当にプレハブをわらわら生成するクラス
+///	</summary>
 public		class		WarawaraGenerator			: MonoBehaviour {
 
 
@@ -39,11 +37,9 @@ public		class		WarawaraGenerator			: MonoBehaviour {
 
 
 
-	/*
-		<summary>
-		初期化時
-		</summary>
-	 */
+	///	<summary>
+	///	初期化時
+	///	</summary>
 	private	void Start() {
 
 		//対象作成
@@ -56,11 +52,9 @@ public		class		WarawaraGenerator			: MonoBehaviour {
 
 
 
-	/*
-		<summary>
-		対象を作成
-		</summary>
-	 */
+	///	<summary>
+	///	対象を作成
+	///	</summary>
 	private	void CreateObject_m_prefab() {
 		//無ければ無視
 		if( (null==m_prefabObject) || (m_prefabObject.Length <= 0)) {

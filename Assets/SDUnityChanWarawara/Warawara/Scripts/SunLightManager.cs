@@ -12,11 +12,9 @@ using System.Collections;
 
 
 
-/*
-	<summary>
-	太陽光のライト制御クラス
-	</summary>
- */
+///	<summary>
+///	太陽光のライト制御クラス
+///	</summary>
 public		class		SunLightManager				: MonoBehaviour {
 
 
@@ -35,21 +33,17 @@ public		class		SunLightManager				: MonoBehaviour {
 
 
 
-	/*
-		<summary>
-		初期化時
-		</summary>
-	 */
+	///	<summary>
+	///	初期化時
+	///	</summary>
 	private	void Start() {
 		//角度を取得
 		m_rotationNow			= transform.eulerAngles;
 	}
 
-	/*
-		<summary>
-		毎フレーム呼び出される関数
-		</summary>
-	 */
+	///	<summary>
+	///	毎フレーム呼び出される関数
+	///	</summary>
 	private	void Update() {
 
 		//夜のシーンは一気に飛ばす

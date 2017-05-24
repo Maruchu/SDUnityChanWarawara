@@ -12,13 +12,11 @@ using System.Collections;
 
 
 
-/*
-	<summary>
-	Oculus Rift 持ってない人用マウスでカメラを動かすクラス
-
-	Escキーでマウスのロック有効/解除
-	</summary>
- */
+///	<summary>
+///	Oculus Rift 持ってない人用マウスでカメラを動かすクラス
+///	
+///	Escキーでマウスのロック有効/解除
+///	</summary>
 public		class		MouseCamera					: MonoBehaviour {
 
 
@@ -34,34 +32,27 @@ public		class		MouseCamera					: MonoBehaviour {
 
 
 
-
-	/*
-		<summary>
-		初期化時
-		</summary>
-	 */
+	///	<summary>
+	///	初期化時
+	///	</summary>
 	private		void	Awake() {
 		//最初の角度を記憶
 		Vector3	vecOriginalRot		= transform.rotation.eulerAngles;
 		m_rotationX		= vecOriginalRot.x;
 		m_rotationY		= vecOriginalRot.y;
 	}
-	/*
-		<summary>
-		毎フレーム呼び出される関数
-		</summary>
-	 */
+	///	<summary>
+	///	毎フレーム呼び出される関数
+	///	</summary>
 	private		void	Update() {
 		CheckMouseLock();
 		CheckMove();
 	}
 
 
-	/*
-		<summary>
-		マウスロック処理のチェック
-		</summary>
-	 */
+	///	<summary>
+	///	マウスロック処理のチェック
+	///	</summary>
 	private		void	CheckMouseLock() {
 
 		//Escキーをおした時の動作
@@ -81,11 +72,9 @@ public		class		MouseCamera					: MonoBehaviour {
 			Cursor.visible		= true;
 		}
 	}
-	/*
-		<summary>
-		移動処理のチェック
-		</summary>
-	 */
+	///	<summary>
+	///	移動処理のチェック
+	///	</summary>
 	private		void	CheckMove() {
 
 		//回転

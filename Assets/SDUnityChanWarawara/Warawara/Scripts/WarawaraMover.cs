@@ -12,13 +12,11 @@ using System.Collections;
 
 
 
-/*
-	<summary>
-	適当に動くキャラクタークラス
-
-	キャラクターの移動、メカニム(モーション)の制御など
-	</summary>
- */
+///	<summary>
+///	適当に動くキャラクタークラス
+///
+///	キャラクターの移動、メカニム(モーション)の制御など
+///	</summary>
 public		class		WarawaraMover				: MonoBehaviour {
 
 
@@ -60,11 +58,9 @@ public		class		WarawaraMover				: MonoBehaviour {
 
 
 
-	/*
-		<summary>
-		初期化時
-		</summary>
-	 */
+	///	<summary>
+	///	初期化時
+	///	</summary>
 	private		void	Awake() {
 		//メカニム用アニメーター取得
 		m_charaAnimator			= m_charaObject.GetComponent<Animator>();
@@ -75,22 +71,18 @@ public		class		WarawaraMover				: MonoBehaviour {
 		m_localScale_Now		= transform.localScale.y;
 		transform.localScale	= (Vector3.one *m_localScale_Now);
 	}
-	/*
-		<summary>
-		毎フレーム呼び出される関数
-		</summary>
-	 */
+	///	<summary>
+	///	毎フレーム呼び出される関数
+	///	</summary>
 	private		void	Update() {
 		//移動処理
 		CheckMove();
 	}
 
 
-	/*
-		<summary>
-		移動処理のチェック
-		</summary>
-	 */
+	///	<summary>
+	///	移動処理のチェック
+	///	</summary>
 	private		void	CheckMove() {
 
 		//AIの思考更新タイマー
